@@ -1,4 +1,4 @@
-.PHONY: dev build clean deploy
+.PHONY: dev build clean
 
 dev:
 	hugo server --buildDrafts --disableFastRender
@@ -9,5 +9,4 @@ build:
 clean:
 	rm -rf public resources
 
-deploy: build
-	npx wrangler pages deploy public --project-name=prism
+# Deployment is handled by .github/workflows/hugo.yml on push to main.

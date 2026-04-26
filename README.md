@@ -7,7 +7,7 @@ Hugo site for [PRISM](https://prism.cs.ucl.ac.uk/), Gabriel Brostow's research g
 ```bash
 make dev      # hugo server with live reload
 make build    # production build into ./public
-make deploy   # publish to Cloudflare Pages
+              # deploy: handled automatically by GitHub Actions on push to main
 ```
 
 ## Adding content
