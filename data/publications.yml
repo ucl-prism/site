@@ -5,49 +5,49 @@
   venue: "NeurIPS"
   year: 2024
   url: https://tapvid3d.github.io/
-  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/TapVid3DTeaser.jpg
+  image: /images/papers/tapvid-3d-a-benchmark-for-tracking-any-point-in-3d.jpg
 
 - title: "INQUIRE: A Natural World Text-to-Image Retrieval Benchmark"
   authors: "E. Vendrow, O. Pantazis, A. Shepard, G. Brostow, K.E. Jones, O. Mac Aodha, S. Beery, G. Van Horn"
   venue: "NeurIPS"
   year: 2024
   url: https://inquire-benchmark.github.io/
-  image: https://inquire-benchmark.github.io/images/inquire_categories.png
+  image: /images/papers/inquire-a-natural-world-text-to-image-retrieval-benchmark.png
 
 - title: "AirPlanes: Accurate Plane Estimation via 3D-Consistent Embeddings"
   authors: "J. Watson, F. Aleotti, M. Sayed, Z. Qureshi, O. Mac Aodha, G. Brostow, M. Firman, S. Vicente"
   venue: "CVPR"
   year: 2024
   url: https://github.com/nianticlabs/airplanes
-  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/AirPlanesTeaser.jpg
+  image: /images/papers/airplanes-accurate-plane-estimation-via-3d-consistent-embedd.jpg
 
 - title: "Don't Look Now: Audio/Haptic Guidance for 3D Scanning of Landmarks"
   authors: "J. Van Brummelen, L.P. Urwin, O.J. Johnston, M. Sayed, G. Brostow"
   venue: "CHI (Best Paper Honorable Mention)"
   year: 2024
   url: https://nianticlabs.github.io/dont-look-now/
-  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/DontLookNow.jpg
+  image: /images/papers/don-t-look-now-audio-haptic-guidance-for-3d-scanning-of-land.jpg
 
 - title: "DoubleTake: Geometry Guided Depth Estimation"
   authors: "M. Sayed, F. Aleotti, J. Watson, Z. Qureshi, G. Garcia-Hernando, G. Brostow, S. Vicente, M. Firman"
   venue: "ECCV"
   year: 2024
   url: https://nianticlabs.github.io/doubletake/
-  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/DoubleTake.jpg
+  image: /images/papers/doubletake-geometry-guided-depth-estimation.jpg
 
 - title: "GroundUp: Rapid Sketch-Based 3D City Massing"
   authors: "G.E. Ünlü, M. Sayed, Y. Gryaditskaya, G. Brostow"
   venue: "ECCV"
   year: 2024
   url: http://visual.cs.ucl.ac.uk/pubs/groundup/
-  image: https://unlugi.github.io/imgs/groundup.png
+  image: /images/papers/groundup-rapid-sketch-based-3d-city-massing.png
 
 - title: "Removing Objects from Neural Radiance Fields"
   authors: "S. Weder, G. Garcia-Hernando, A. Monszpart, M. Pollefeys, G.J. Brostow, M. Firman, S. Vicente"
   venue: "CVPR"
   year: 2023
   url: https://nianticlabs.github.io/nerf-object-removal/
-  image: https://nianticlabs.github.io/nerf-object-removal/resources/overview.png
+  image: /images/papers/removing-objects-from-neural-radiance-fields.png
 
 - title: "Heightfields for Efficient Scene Reconstruction for AR"
   authors: "J. Watson, S. Vicente, O. Mac Aodha, C. Godard, G.J. Brostow, M. Firman"
@@ -60,7 +60,7 @@
   venue: "CVPR"
   year: 2023
   url: https://nianticlabs.github.io/implicit-depth/
-  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/ImplicitDepthTeaser.jpg
+  image: /images/papers/virtual-occlusions-through-implicit-depth.jpg
 
 - title: "Two-View Geometry Scoring Without Correspondences"
   authors: "A. Barroso-Laguna, E. Brachmann, V.A. Prisacariu, G.J. Brostow, D. Turmukhambetov"
@@ -79,14 +79,14 @@
   venue: "3DV"
   year: 2022
   url: http://visual.cs.ucl.ac.uk/pubs/sketch2mannequin/
-  image: http://visual.cs.ucl.ac.uk/pubs/sketch2mannequin/img/teaser.png
+  image: /images/papers/interactive-sketching-of-mannequin-poses.png
 
 - title: "LookOut! Interactive Camera Gimbal Controller for Filming Long Takes"
   authors: "M. Sayed, R. Cinca, E. Costanza, G.J. Brostow"
   venue: "ACM Transactions on Graphics (TOG)"
   year: 2022
   url: http://visual.cs.ucl.ac.uk/pubs/lookOut/
-  image: http://visual.cs.ucl.ac.uk/pubs/lookOut/img/thumb.png
+  image: /images/papers/lookout-interactive-camera-gimbal-controller-for-filming-lon.png
 
 - title: "The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth"
   authors: "J. Watson, O. Mac Aodha, V. Prisacariu, G.J. Brostow, M. Firman"
@@ -99,7 +99,7 @@
   venue: "ICCV"
   year: 2021
   url: https://github.com/omipan/camera_traps_self_supervised
-  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/FocusOnPositivesTeaser.jpg
+  image: /images/papers/focus-on-the-positives-self-supervised-learning-for-biodiver.jpg
 
 - title: "Shazam for Bats: Internet of Things for Continuous Real-Time Biodiversity Monitoring"
   authors: "S. Gallacher, D. Wilson, A. Fairbrass, D. Turmukhambetov, M. Firman, S. Kreitmayer, O. Mac Aodha, G.J. Brostow, K.E. Jones"
@@ -118,7 +118,7 @@
   venue: "CVPR"
   year: 2021
   url: https://github.com/nianticlabs/panoptic-forecasting
-  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/PanopticTeaser.jpg
+  image: /images/papers/panoptic-segmentation-forecasting.jpg
 
 - title: "Improved Handling of Motion Blur in Online Object Detection"
   authors: "M. Sayed, G.J. Brostow"
