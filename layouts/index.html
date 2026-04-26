@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="intro-row">
+  {{ with .Site.Params.logo }}
+    <img src="{{ . | relURL }}" alt="PRISM Lab logo" class="lab-logo">
+  {{ end }}
+  <section class="intro">
+    {{ .Content }}
+  </section>
+</div>
+
+{{ with hugo.Data.people }}
+  <section id="people">
+    <h2>People</h2>
+
+    {{ with .pi }}
+      <h3>Principal Investigator</h3>
+      <div class="people-grid people-grid--centered">
+        {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+      </div>
+    {{ end }}
+
+    {{ with .postdocs }}
+      <h3>Postdocs &amp; Research Staff</h3>
+      <div class="people-grid">
+        {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+      </div>
+    {{ end }}
+
+    {{ with .phd }}
+      <h3>PhD Students</h3>
+      <div class="people-grid">
+        {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+      </div>
+    {{ end }}
+
+    <p style="margin-top: 1.5rem;"><a href="/people/#alumni">Alumni &rarr;</a></p>
+  </section>
+{{ end }}
+
+{{ with hugo.Data.news }}
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+      {{ range first 6 . }}
+        <li class="news-item">
+          <span class="news-date">{{ .date }}</span>
+          {{ .body | markdownify }}
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}
+{{ end }}

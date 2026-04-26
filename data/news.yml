@@ -1,0 +1,20 @@
+- date: "Dec 2024"
+  body: |
+    Skanda Koppula and Omiros Pantazis presented their NeurIPS papers in Vancouver:
+    [TAPVid-3D: A Benchmark for Tracking Any Point in 3D](https://tapvid3d.github.io/) and
+    [INQUIRE: A Natural World Text-to-Image Retrieval Benchmark](https://inquire-benchmark.github.io/).
+
+- date: "Oct 2024"
+  body: |
+    Two papers at ECCV 2024 in Milan — congratulations to Gizem and the team led by Mohamed:
+    [GroundUp: Rapid Sketch-Based 3D City Massing](http://visual.cs.ucl.ac.uk/pubs/groundup/) and
+    [DoubleTake: Geometry Guided Depth Estimation](https://nianticlabs.github.io/doubletake/).
+
+- date: "June 2024"
+  body: |
+    We presented [AirPlanes](https://github.com/nianticlabs/airplanes) at CVPR 2024 in Seattle.
+
+- date: "May 2024"
+  body: |
+    Jess presented [Don't Look Now](https://nianticlabs.github.io/dont-look-now/) at CHI 2024 in Honolulu —
+    Best Paper Honorable Mention!

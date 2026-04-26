@@ -1,0 +1,280 @@
+pi:
+  - name: Gabriel Brostow
+    role: Professor of Computer Vision & AI
+    image: /images/people/gabriel.jpg
+    home: http://www0.cs.ucl.ac.uk/staff/g.brostow/
+    scholar: https://scholar.google.co.uk/citations?user=CZiTv0gAAAAJ&hl=en
+    linkedin: gabriel-brostow
+    bsky: gbrostow.bsky.social
+
+postdocs: []
+
+phd:
+  - name: Ross Murphy
+    role: PhD Student
+    image: /images/people/ross.jpg
+    home: https://rossamurphy.com/
+    note: Also at UCL Dark
+  - name: Skanda Koppula
+    role: PhD Student
+    note: Also at Google DeepMind
+    image: /images/people/skanda.jpg
+    home: https://skoppula.com/
+  - name: Ramneek Ahluwalia
+    role: PhD Student
+    note: Supervised by Mark Colley
+    image: /images/people/ramneek.jpg
+    home: https://skoppula.com/
+  - name: Gizem Unlu
+    role: PhD Student
+    image: /images/people/gizem.png
+    home: https://unlugi.github.io/
+  - name: Omiros Pantazis
+    role: PhD Student
+    image: /images/people/omiros.jpg
+    home: https://omipan.github.io/
+    note: Also at Inferity
+  - name: Jamie Watson
+    role: PhD Student
+    image: /images/people/jamie.jpg
+    note: Also at Project Prometheus
+
+msc: []
+
+alumni_phd:
+  - name: Mohamed Sayed
+    role: PhD Alumnus
+    image: /images/people/mohamed.jpg
+    home: https://masayed.com/
+    note: Currently at Niantic
+  - name: Stephan Garbin
+    role: PhD Alumnus
+    image: /images/people/stephan.png
+    home: http://stephangarbin.com/
+    note: Currently at Microsoft
+  - name: Clément Godard
+    role: PhD Alumnus
+    image: /images/people/clement.jpg
+    home: http://www0.cs.ucl.ac.uk/staff/c.godard/
+    note: Currently at Google
+  - name: Peter Hedman
+    role: PhD Alumnus
+    image: /images/people/peter-hedman.jpg
+    home: http://www0.cs.ucl.ac.uk/people/P.Hedman.html
+    note: Currently at Meta
+  - name: Corneliu Ilisescu
+    role: PhD Alumnus
+    image: /images/people/corneliu.jpg
+    home: http://www0.cs.ucl.ac.uk/staff/C.Ilisescu/
+    note: Currently at Synthesia
+  - name: Thanapong Intharah
+    role: PhD Alumnus
+    image: /images/people/thanapong.jpg
+    home: http://www0.cs.ucl.ac.uk/people/T.Intharah.html
+    note: Currently at KKU
+  - name: Peter Rennert
+    role: PhD Alumnus
+    image: /images/people/peter.jpg
+    home: http://www.cs.ucl.ac.uk/people/P.Rennert.html
+  - name: Daniel Worrall
+    role: PhD Alumnus
+    image: /images/people/daniel.jpg
+    home: https://danielewworrall.github.io/
+    note: Currently at Google DeepMind
+  - name: Maciej Gryka
+    role: PhD Alumnus
+    image: /images/people/maciej.jpg
+    home: https://maciej.gryka.net/
+    note: Currently at Distil Labs
+  - name: Cristina Garcia-Cifuentes
+    role: PhD Alumna
+    image: /images/people/cristina.jpg
+    home: http://www.cs.ucl.ac.uk/staff/C.GarciaCifuentes/
+  - name: Oisin Mac Aodha
+    role: PhD Alumnus / former postdoc
+    image: /images/people/oisin.jpg
+    home: https://homepages.inf.ed.ac.uk/omacaod/
+    note: Currently at University of Edinburgh
+  - name: Tom SF Haines
+    role: Postdoc Alumnus
+    image: /images/people/tom.jpg
+    home: http://thaines.com/
+    scholar: https://scholar.google.com/citations?user=jg2HJ7QAAAAJ&hl=en
+    note: Currently at University of Bath
+  - name: Edward Johns
+    role: Postdoc Alumnus
+    image: /images/people/edward.jpg
+    home: https://profiles.imperial.ac.uk/e.johns
+    note: Currently at Imperial
+  - name: Michael Firman
+    role: Postdoc Alumnus
+    image: /images/people/michael.jpg
+    home: https://michaelfirman.co.uk/
+    note: Currently at Niantic Spatial
+  - name: Daniyar Turmukhambetov
+    role: Postdoc Alumnus
+    image: /images/people/daniyar.jpg
+    home: https://dantkz.github.io/
+    note: Currently at Niantic Spatial
+  - name: Wenbin Li
+    role: Postdoc Alumnus
+    image: /images/people/wenbin.png
+    home: https://wbli.me/
+    note: Currently at University of Bath
+
+alumni:
+  - name: Iason Chaimalas
+    role: MEng
+    home: https://www.linkedin.com/in/iason-chaimalas/
+  - name: Arnas Vyniauskas
+    role: MEng
+  - name: Duolikun Danier
+    role: MSc
+    image: /images/people/duolikun.jpg
+    home: https://danier97.github.io/
+  - name: Arthur Brussee
+    role: MSc
+    home: https://scholar.google.com/citations?user=jYYYIvsAAAAJ&hl=en
+  - name: Aron Monszpart
+    role: MSc
+    home: http://geometry.cs.ucl.ac.uk/amonszpart/
+  - name: Dominic Waithe
+    role: MSc
+    image: /images/people/dominic.png
+    home: https://dwaithe.github.io/home/
+  - name: Efstratios (Stratos) Skordos
+    role: PhD candidate
+    home: http://www0.cs.ucl.ac.uk/people/E.Skordos.html
+  - name: Malcolm Reynolds
+    role: PhD candidate
+    home: http://www.cs.ucl.ac.uk/staff/M.Reynolds/
+  - name: Aytac Kanaci
+    role: Research Assistant
+    home: https://www.linkedin.com/in/hkanaci
+  - name: Animesh Mishra
+    role: MSc
+    home: https://www.linkedin.com/in/amishr
+  - name: Mohamed Sayed
+    role: MSc
+  - name: Jamie Watson
+    role: MSc
+  - name: Joseph Dobson
+    role: MSc
+  - name: Subhiksha Subramanian
+    role: MSc
+  - name: Sanae Benjeddi
+    role: MSc
+  - name: Aarsh Chaube
+    role: MSc
+  - name: Harvey Mannering
+    role: MSc
+  - name: Daniel Chipping
+    role: MSc
+  - name: Nicolas Kirchmeyer
+    role: MSc
+  - name: Amy Andrews
+    role: MSc
+  - name: Sam Kapadia
+    role: MSc
+  - name: Sergey Mosesov
+    role: MSc
+  - name: Wan Jing Song
+    role: MSc
+  - name: Callum Lau
+    role: MSc
+  - name: Tianji Liu
+    role: MSc
+  - name: Pierre Valassakis
+    role: MSc
+  - name: Xin Liang
+    role: MSc
+  - name: Jake Rutterford
+    role: MSc
+  - name: Marios Fournarakis
+    role: MSc
+  - name: Libby Kinsey
+    role: MSc
+  - name: James Owers
+    role: MSc
+  - name: Lionel Ward
+    role: MSc
+  - name: Mengjiao Wang
+    role: MSc
+  - name: Loic Legaye
+    role: MSc
+  - name: Srijan Parmeshwar
+    role: MSc
+  - name: Amy Roberts
+    role: MSc
+  - name: Saki Shinoda
+    role: MSc
+  - name: Alasdair Paren
+    role: MSc
+  - name: Hugo Germain
+    role: MSc
+  - name: Michael Garbin
+    role: MSc
+  - name: Marcus Wallbaum
+    role: MSc
+  - name: Mike Terry
+    role: Leverhulme Visiting Professor
+    home: http://hci.uwaterloo.ca/faculty/mterry/
+  - name: Dana Zemel
+    role: MSc
+    home: https://www.linkedin.com/in/dana-zemel-59146170
+  - name: Zhifei Deng
+    role: MSc
+  - name: Dina El Kholy
+    role: MSc
+  - name: Katrin Honauer
+    role: MSc
+    home: https://www.linkedin.com/in/katrin-honauer/
+  - name: Jennifer Nguyen
+    role: MSc
+    home: https://www.linkedin.com/in/jenguyen
+  - name: Grigorios Skolidis
+    role: Postdoc
+    home: http://www.ucl.ac.uk/statistics/people/grigoriosskolidis
+  - name: Hugo Lopez Tovar
+    role: MSc
+    home: http://www0.cs.ucl.ac.uk/people/H.LopezTovar.html
+  - name: Oscar Plag
+    role: MSc
+    home: https://angel.co/oscar-plag
+  - name: Mischa Schirris
+    role: MSc
+    home: https://www.linkedin.com/in/mischa-schirris-54570a85
+  - name: Prathyusha Vadrevu
+    role: MSc
+  - name: Martijn van der Veen
+    role: MSc
+    home: http://turiphro.nl/edu/
+  - name: Jacques Cali
+    role: MSc
+    home: http://www.cs.ucl.ac.uk/people/J.Cali.html
+  - name: Vincent Gabou
+    role: MSc
+    home: https://www.linkedin.com/in/vincent-gabou-a3632b2b
+  - name: Arun Nair
+    role: MSc
+  - name: Daniyar Turmukhambetov
+    role: MSc
+  - name: Victor Borjas
+    role: MSc ETH Zurich
+  - name: Yotam Doron
+    role: MSc
+  - name: Ahmad Humayun
+    role: MSc
+  - name: Vineet Kapoor
+    role: MSc
+  - name: Michael King
+    role: MSc
+  - name: Anthony J Lazzaro
+    role: MSc
+    home: https://www.linkedin.com/in/anthonylazzaro
+  - name: Golnoosh Samei
+    role: MSc ETH Zurich
+  - name: Cristina Amati
+    role: MSc
+  - name: Karim Morcos
+    role: MSc

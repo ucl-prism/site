@@ -1,0 +1,44 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+{{ $pubs := hugo.Data.publications }}
+{{ $byYear := dict }}
+{{ range $pubs }}
+  {{ $y := printf "%v" .year }}
+  {{ $existing := index $byYear $y | default slice }}
+  {{ $byYear = merge $byYear (dict $y (append . $existing)) }}
+{{ end }}
+
+{{ $years := slice }}
+{{ range $y, $_ := $byYear }}{{ $years = $years | append $y }}{{ end }}
+{{ $years = sort $years "value" "desc" }}
+
+{{ range $years }}
+  {{ $year := . }}
+  <h2 class="pub-year-heading">{{ $year }}</h2>
+  {{ range index $byYear $year }}
+    {{ $pub := . }}
+    <article class="pub-item">
+      <div class="pub-content">
+        <p class="title">
+          {{ if $pub.url }}<a href="{{ $pub.url }}">{{ $pub.title }}</a>{{ else }}{{ $pub.title }}{{ end }}
+        </p>
+        {{ with $pub.authors }}<p class="authors">{{ . }}</p>{{ end }}
+        <p class="venue">{{ $pub.venue }}{{ if $pub.year }}, {{ $pub.year }}{{ end }}</p>
+        <div class="pub-links">
+          {{ with $pub.url }}<a href="{{ . }}">Project page</a>{{ end }}
+          {{ with $pub.pdf }}<a href="{{ . }}">PDF</a>{{ end }}
+          {{ with $pub.arxiv }}<a href="{{ . }}">arXiv</a>{{ end }}
+          {{ with $pub.code }}<a href="{{ . }}">Code</a>{{ end }}
+        </div>
+      </div>
+      {{ with $pub.image }}
+        <div class="pub-thumb">
+          <img src="{{ . }}" alt="{{ $pub.title }}" loading="lazy">
+        </div>
+      {{ end }}
+    </article>
+  {{ end }}
+{{ end }}
+{{ end }}

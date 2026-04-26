@@ -1,0 +1,46 @@
+baseURL = 'https://prism.cs.ucl.ac.uk/'
+languageCode = 'en-gb'
+title = 'PRISM — UCL'
+enableEmoji = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  description = "PRISM is Gabriel Brostow's research group at UCL Computer Science, working on Computer Vision, Human-Centered AI, and 3D scene understanding."
+  tagline = "A research group at UCL Computer Science"
+  logo = "/images/UCL-PRISM.jpeg"
+  contact = "brostow .at. cs.ucl.ac.uk"
+  address = ["Prof. Gabriel Brostow", "UCL Department of Computer Science", "Gower Street", "London WC1E 6BT", "United Kingdom"]
+  office = "Office #209, 169 Euston Rd, London"
+
+[[params.social]]
+  name = "Google Scholar"
+  url = "https://scholar.google.co.uk/citations?user=CZiTv0gAAAAJ&hl=en"
+
+[[params.social]]
+  name = "BlueSky"
+  url = "https://bsky.app/profile/gbrostow.bsky.social"
+
+[[params.social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/gabriel-brostow/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "People"
+    url = "/people/"
+    weight = 20
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 30
+
+[build]
+  [build.buildStats]
+    enable = true

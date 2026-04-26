@@ -1,0 +1,223 @@
+# Each entry: title, authors, venue, year, url, image (optional)
+
+- title: "TAPVid-3D: A Benchmark for Tracking Any Point in 3D"
+  authors: "S. Koppula, I. Rocco, Y. Yang, J. Heyward, J. Carreira, A. Zisserman, G. Brostow, C. Doersch"
+  venue: "NeurIPS"
+  year: 2024
+  url: https://tapvid3d.github.io/
+  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/TapVid3DTeaser.jpg
+
+- title: "INQUIRE: A Natural World Text-to-Image Retrieval Benchmark"
+  authors: "E. Vendrow, O. Pantazis, A. Shepard, G. Brostow, K.E. Jones, O. Mac Aodha, S. Beery, G. Van Horn"
+  venue: "NeurIPS"
+  year: 2024
+  url: https://inquire-benchmark.github.io/
+  image: https://inquire-benchmark.github.io/images/inquire_categories.png
+
+- title: "AirPlanes: Accurate Plane Estimation via 3D-Consistent Embeddings"
+  authors: "J. Watson, F. Aleotti, M. Sayed, Z. Qureshi, O. Mac Aodha, G. Brostow, M. Firman, S. Vicente"
+  venue: "CVPR"
+  year: 2024
+  url: https://github.com/nianticlabs/airplanes
+  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/AirPlanesTeaser.jpg
+
+- title: "Don't Look Now: Audio/Haptic Guidance for 3D Scanning of Landmarks"
+  authors: "J. Van Brummelen, L.P. Urwin, O.J. Johnston, M. Sayed, G. Brostow"
+  venue: "CHI (Best Paper Honorable Mention)"
+  year: 2024
+  url: https://nianticlabs.github.io/dont-look-now/
+  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/DontLookNow.jpg
+
+- title: "DoubleTake: Geometry Guided Depth Estimation"
+  authors: "M. Sayed, F. Aleotti, J. Watson, Z. Qureshi, G. Garcia-Hernando, G. Brostow, S. Vicente, M. Firman"
+  venue: "ECCV"
+  year: 2024
+  url: https://nianticlabs.github.io/doubletake/
+  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/DoubleTake.jpg
+
+- title: "GroundUp: Rapid Sketch-Based 3D City Massing"
+  authors: "G.E. Ünlü, M. Sayed, Y. Gryaditskaya, G. Brostow"
+  venue: "ECCV"
+  year: 2024
+  url: http://visual.cs.ucl.ac.uk/pubs/groundup/
+  image: https://unlugi.github.io/imgs/groundup.png
+
+- title: "Removing Objects from Neural Radiance Fields"
+  authors: "S. Weder, G. Garcia-Hernando, A. Monszpart, M. Pollefeys, G.J. Brostow, M. Firman, S. Vicente"
+  venue: "CVPR"
+  year: 2023
+  url: https://nianticlabs.github.io/nerf-object-removal/
+  image: https://nianticlabs.github.io/nerf-object-removal/resources/overview.png
+
+- title: "Heightfields for Efficient Scene Reconstruction for AR"
+  authors: "J. Watson, S. Vicente, O. Mac Aodha, C. Godard, G.J. Brostow, M. Firman"
+  venue: "WACV"
+  year: 2023
+  url: https://openaccess.thecvf.com/content/WACV2023/papers/Watson_Heightfields_for_Efficient_Scene_Reconstruction_for_AR_WACV_2023_paper.pdf
+
+- title: "Virtual Occlusions Through Implicit Depth"
+  authors: "J. Watson, M. Sayed, Z. Qureshi, G.J. Brostow, S. Vicente, O. Mac Aodha, M. Firman"
+  venue: "CVPR"
+  year: 2023
+  url: https://nianticlabs.github.io/implicit-depth/
+  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/ImplicitDepthTeaser.jpg
+
+- title: "Two-View Geometry Scoring Without Correspondences"
+  authors: "A. Barroso-Laguna, E. Brachmann, V.A. Prisacariu, G.J. Brostow, D. Turmukhambetov"
+  venue: "CVPR"
+  year: 2023
+  url: https://github.com/nianticlabs/scoring-without-correspondences
+
+- title: "SVL-Adapter: Self-Supervised Adapter for Vision-Language Pretrained Models"
+  authors: "O. Pantazis, G.J. Brostow, K.E. Jones, O. Mac Aodha"
+  venue: "BMVC"
+  year: 2022
+  url: https://github.com/omipan/svl_adapter
+
+- title: "Interactive Sketching of Mannequin Poses"
+  authors: "G. Unlu, M. Sayed, G.J. Brostow"
+  venue: "3DV"
+  year: 2022
+  url: http://visual.cs.ucl.ac.uk/pubs/sketch2mannequin/
+  image: http://visual.cs.ucl.ac.uk/pubs/sketch2mannequin/img/teaser.png
+
+- title: "LookOut! Interactive Camera Gimbal Controller for Filming Long Takes"
+  authors: "M. Sayed, R. Cinca, E. Costanza, G.J. Brostow"
+  venue: "ACM Transactions on Graphics (TOG)"
+  year: 2022
+  url: http://visual.cs.ucl.ac.uk/pubs/lookOut/
+  image: http://visual.cs.ucl.ac.uk/pubs/lookOut/img/thumb.png
+
+- title: "The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth"
+  authors: "J. Watson, O. Mac Aodha, V. Prisacariu, G.J. Brostow, M. Firman"
+  venue: "CVPR"
+  year: 2021
+  url: https://github.com/nianticlabs/manydepth
+
+- title: "Focus on the Positives: Self-Supervised Learning for Biodiversity Monitoring"
+  authors: "O. Pantazis, G.J. Brostow, K.E. Jones, O. Mac Aodha"
+  venue: "ICCV"
+  year: 2021
+  url: https://github.com/omipan/camera_traps_self_supervised
+  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/FocusOnPositivesTeaser.jpg
+
+- title: "Shazam for Bats: Internet of Things for Continuous Real-Time Biodiversity Monitoring"
+  authors: "S. Gallacher, D. Wilson, A. Fairbrass, D. Turmukhambetov, M. Firman, S. Kreitmayer, O. Mac Aodha, G.J. Brostow, K.E. Jones"
+  venue: "IET Smart Cities"
+  year: 2021
+  url: https://connected-environments.org/portfolio/shazamforbats/
+
+- title: "Visual Camera Re-Localization Using Graph Neural Networks and Relative Pose Supervision"
+  authors: "M.O. Turkoglu, E. Brachmann, K. Schindler, G.J. Brostow, A. Monszpart"
+  venue: "3DV"
+  year: 2021
+  url: https://github.com/nianticlabs/relpose-gnn
+
+- title: "Panoptic Segmentation Forecasting"
+  authors: "C. Graber, G. Tsai, M. Firman, G.J. Brostow, A.G. Schwing"
+  venue: "CVPR"
+  year: 2021
+  url: https://github.com/nianticlabs/panoptic-forecasting
+  image: http://www0.cs.ucl.ac.uk/staff/G.Brostow/ext/imgs/PanopticTeaser.jpg
+
+- title: "Improved Handling of Motion Blur in Online Object Detection"
+  authors: "M. Sayed, G.J. Brostow"
+  venue: "CVPR"
+  year: 2021
+  url: http://visual.cs.ucl.ac.uk/pubs/handlingMotionBlur/
+
+- title: "Single-Image Depth Prediction Makes Feature Matching Easier"
+  authors: "C. Toft, D. Turmukhambetov, T. Sattler, F. Kahl, G.J. Brostow"
+  venue: "ECCV"
+  year: 2020
+  url: https://github.com/nianticlabs/rectified-features
+
+- title: "Footprints and Free Space from a Single Color Image"
+  authors: "J. Watson, M. Firman, A. Monszpart, G.J. Brostow"
+  venue: "CVPR"
+  year: 2020
+  url: https://github.com/nianticlabs/footprints
+
+- title: "Learning Stereo from Single Images"
+  authors: "J. Watson, O. Mac Aodha, D. Turmukhambetov, G.J. Brostow, M. Firman"
+  venue: "ECCV"
+  year: 2020
+  url: https://github.com/nianticlabs/stereo-from-mono
+
+- title: "Predicting Visual Overlap of Images Through Interpretable Non-Metric Box Embeddings"
+  authors: "A. Rau, G. Garcia-Hernando, D. Stoyanov, G.J. Brostow, D. Turmukhambetov"
+  venue: "ECCV"
+  year: 2020
+  url: https://github.com/nianticlabs/image-box-overlap
+
+- title: "Self-Supervised Monocular Depth Hints"
+  authors: "J. Watson, M. Firman, G.J. Brostow, D. Turmukhambetov"
+  venue: "ICCV"
+  year: 2019
+  url: https://github.com/nianticlabs/depth-hints
+
+- title: "Digging Into Self-Supervised Monocular Depth Estimation"
+  authors: "C. Godard, O. Mac Aodha, M. Firman, G.J. Brostow"
+  venue: "ICCV"
+  year: 2019
+  url: https://github.com/nianticlabs/monodepth2
+
+- title: "Deep Blending for Free-Viewpoint Image-Based Rendering"
+  authors: "P. Hedman, J. Philip, T. Price, J-M. Frahm, G. Drettakis, G.J. Brostow"
+  venue: "ACM Transactions on Graphics (TOG)"
+  year: 2018
+  url: http://visual.cs.ucl.ac.uk/pubs/deepblending/
+
+- title: "CubeNet: Equivariance to 3D Rotation and Translation"
+  authors: "D. Worrall, G.J. Brostow"
+  venue: "ECCV"
+  year: 2018
+  url: https://github.com/danielewworrall/cubenet
+
+- title: "Bat Detective — Deep Learning Tools for Bat Acoustic Signal Detection"
+  authors: "O. Mac Aodha et al."
+  venue: "PLoS Computational Biology"
+  year: 2018
+  url: http://visual.cs.ucl.ac.uk/pubs/batDetective/index.html
+
+- title: "Harmonic Networks: Deep Translation and Rotation Equivariance"
+  authors: "D.E. Worrall, S.J. Garbin, D. Turmukhambetov, G.J. Brostow"
+  venue: "CVPR"
+  year: 2017
+  url: http://visual.cs.ucl.ac.uk/pubs/harmonicNets/index.html
+
+- title: "Unsupervised Monocular Depth Estimation with Left-Right Consistency"
+  authors: "C. Godard, O. Mac Aodha, G.J. Brostow"
+  venue: "CVPR"
+  year: 2017
+  url: http://visual.cs.ucl.ac.uk/pubs/monoDepth/index.html
+
+- title: "My Text in Your Handwriting"
+  authors: "T.S.F. Haines, O. Mac Aodha, G.J. Brostow"
+  venue: "ACM Transactions on Graphics (TOG)"
+  year: 2016
+  url: http://visual.cs.ucl.ac.uk/pubs/handwriting/index.html
+
+- title: "Roto++: Accelerating Professional Rotoscoping Using Shape Manifolds"
+  authors: "W. Li, F. Viola, J. Starck, G.J. Brostow, N.D.F. Campbell"
+  venue: "SIGGRAPH"
+  year: 2016
+  url: http://visual.cs.ucl.ac.uk/pubs/rotopp/
+
+- title: "Structured Prediction of Unobserved Voxels From a Single Depth Image"
+  authors: "M. Firman, O. Mac Aodha, S. Julier, G.J. Brostow"
+  venue: "CVPR"
+  year: 2016
+  url: http://visual.cs.ucl.ac.uk/pubs/depthPrediction/
+
+- title: "Becoming the Expert — Interactive Multi-Class Machine Teaching"
+  authors: "E. Johns, O. Mac Aodha, G.J. Brostow"
+  venue: "CVPR"
+  year: 2015
+  url: http://visual.cs.ucl.ac.uk/pubs/interactiveMachineTeaching/
+
+- title: "Learning to Remove Soft Shadows"
+  authors: "M. Gryka, M. Terry, G.J. Brostow"
+  venue: "Transactions on Graphics (presented at SIGGRAPH)"
+  year: 2015
+  url: http://visual.cs.ucl.ac.uk/pubs/softshadows

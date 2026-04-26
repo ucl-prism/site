@@ -1,0 +1,65 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+{{ $people := hugo.Data.people }}
+
+{{ with $people.pi }}
+  <section>
+    <h2>Principal Investigator</h2>
+    <div class="people-grid people-grid--centered">
+      {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+    </div>
+  </section>
+{{ end }}
+
+{{ with $people.postdocs }}
+  <section>
+    <h2>Postdocs &amp; Research Staff</h2>
+    <div class="people-grid">
+      {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+    </div>
+  </section>
+{{ end }}
+
+{{ with $people.phd }}
+  <section>
+    <h2>PhD Students</h2>
+    <div class="people-grid">
+      {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+    </div>
+  </section>
+{{ end }}
+
+{{ with $people.msc }}
+  <section>
+    <h2>MSc &amp; Visiting Students</h2>
+    <div class="people-grid">
+      {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+    </div>
+  </section>
+{{ end }}
+
+{{ with $people.alumni_phd }}
+  <section id="alumni">
+    <h2>PhD &amp; Postdoc Alumni</h2>
+    <div class="people-grid">
+      {{ range . }}{{ partial "person-card.html" (dict "person" .) }}{{ end }}
+    </div>
+  </section>
+{{ end }}
+
+{{ with $people.alumni }}
+  <section>
+    <h2>Other Alumni</h2>
+    <ul style="columns: 2; column-gap: 2rem; padding-left: 1.2rem;">
+      {{ range . }}
+        <li style="margin-bottom: 0.3rem; break-inside: avoid;">
+          {{ if .home }}<a href="{{ .home }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+          {{ with .role }}<span style="color: var(--muted); font-size: 0.9rem;"> ({{ . }})</span>{{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}
+{{ end }}
